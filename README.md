@@ -10,7 +10,7 @@
 ## Testing frameworks
   Testing could be done by using different frameworks like mocha, expresso, jsUnit, should, jest etc..</br>
   This demo would be of jest framework.</br>
-  *To install jest, type the command below in the terminal,*
+  *To install jest, type the following command in the terminal,*
   ```javascript
   npm install jest --save-dev
   ```
