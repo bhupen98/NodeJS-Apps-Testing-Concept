@@ -1,11 +1,15 @@
 ## Why Testing is so important
-1. Testing allows you to completely refactor code and feel confident that your codebase is still functional.
-2. Having Test coverage is extremely important if you are working on a team because itsn't possible for other developers 
-    on the team to know  if their contributions will result in a breaking change.
-3. Implememting Testing also encourage you and your teammates to split up code into smaller pieces
+ 1. Saves time
+ 2. Creates Realiable Software
+ 3. Gives flexible to developers
+ 4. Refactoring
+ 5. callaborating
+ 6. Profiling
+ 
 
 ## Testing frameworks
-  In this app i will be using jest testing framework.</br>
+  Test could be using many frameworks like mocha, expresso, jsUnit, should, jest etc..</br>
+  But this demo would be of jest framework.</br>
   *To install jest from terminal,*
   ```javascript
   npm install jest --save-dev
@@ -49,12 +53,7 @@
  
  This simple principal is gonna be expanded in more complex real world scenario.
  
-## Why Test?
- 1. Saves time
- 2. Creates Realiable Software
- 3. Gives flexible to developers
- 4. Refactoring
- 5. callaborating
- 6. Profiling
+
+ 
 
        
