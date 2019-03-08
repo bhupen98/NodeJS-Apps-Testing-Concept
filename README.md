@@ -47,7 +47,7 @@
    When registering a test, we call a test function providing a name and the function.</br>
   when jest runs our test, it simply runs that function, if the test throws an error then the test is considered to be a failure else it is considered to be  success.</br></br>
           
-  Let's add a test to be failure,
+  ### Let's add a test to be failure,
   
    ```javascript 
   test('it should fail!',()=>{
