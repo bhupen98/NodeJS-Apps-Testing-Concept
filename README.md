@@ -65,7 +65,46 @@
  
  This simple principal is gonna be expanded in more complex real world scenario.
  
-
+  ### Asynchronous code testing
+  Add the following script in package.json,
+  ```json
+  "test":"jest --watch"
+  ```
+  
+  For asynchtonous test,
+  ```javascript
+     test('Async test demo',()=>{
+     setTimeout(()=>{
+     expect(1).toBe(2); //false
+     },2000)
+     });
+  ```
  
+  Output:
+  </br>
+  ![asy](https://user-images.githubusercontent.com/47861774/54089878-f3bdc880-4395-11e9-86ae-9956a3e0b1a2.png)
+  </br>
+   Here, we still didn't got the error. This is beacuse of the asynchronous processing running.
+   
+   Now, to make it do synchronously, follow the code below.
+   
+ ```javascript
+   test('Async test demo',(done)=>{
+   setTimeout(()=>{
+   expect(1).toBe(2); //false
+   done();
+   },2000)
+   });
+  ```
+  Output:
+  </br>
+  ![syn](https://user-images.githubusercontent.com/47861774/54089948-db9a7900-4396-11e9-9de7-77460930ec8d.png)
+  </br>
+  here, we got an error. ^^
+
+   
+   
+  
+     
 
        
