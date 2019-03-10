@@ -10,7 +10,7 @@
 ## Testing frameworks
   Testing could be done by using different frameworks like mocha, expresso, jsUnit, should, jest etc..</br>
   This demo would be of jest framework.</br>
-  *To install jest, type the following command in the terminal,*
+  ### Installation
   ```javascript
   npm install jest --save-dev
   ```
@@ -25,7 +25,7 @@
   npm test
   ```
   <img src="https://user-images.githubusercontent.com/47861774/54043300-57a88b80-41f4-11e9-8dfa-9662ab5fe8db.png" height="150px" width="500px"/>
-  This shows that your jest works perfectly.
+  *This shows that your jest works perfectly*.
   
   ## Your first test
   create a file name math.test.js in your working directory, and follow the code below.
